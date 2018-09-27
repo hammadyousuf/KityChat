@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "673439114495",
+    "firebase_url": "https://kitychat-46acb.firebaseio.com",
+    "project_id": "kitychat-46acb",
+    "storage_bucket": "kitychat-46acb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673439114495:android:c9edeb357c769a1e",
+        "android_client_info": {
+          "package_name": "com.Kashsoft.h.kitychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673439114495-ddrieallc5ccei6ivjmqjmetdomnna7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Kashsoft.h.kitychat",
+            "certificate_hash": "7c6883505d6c0aeef0c237a7765a663827b80d5b"
+          }
+        },
+        {
+          "client_id": "673439114495-7s5jobbue6n6tel4irqd4cekis1e1erg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3_IybYn4JrywjdiBC3-eplwgSJfUNlLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673439114495-7s5jobbue6n6tel4irqd4cekis1e1erg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

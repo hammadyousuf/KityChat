@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_small"
+    android:paddingEnd="@dimen/padding_avg"
+    android:paddingStart="@dimen/padding_avg"
+    android:paddingTop="@dimen/padding_small">
+
+
+    <FrameLayout
+        android:id="@+id/outgoing_layout_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/balloon_outgoing_normal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:orientation="horizontal"
+            android:paddingRight="5dp">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_chat_message"
+            style="@style/chat_text_message_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_toStartOf="@+id/text_view_user_alphabet"
+            android:paddingRight="6dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:text="Hello mate ! " />
+
+        <TextView
+            android:id="@+id/text_view_user_alphabet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="@dimen/margin_avg"
+            android:background="@drawable/circle_accent"
+            android:gravity="center"
+            android:maxEms="1"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/grey_100"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:text="a" />
+
+    </FrameLayout>
+</RelativeLayout>
